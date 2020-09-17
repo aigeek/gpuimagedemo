@@ -1,9 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d0414ac9-d954-4d4d-81fd-d338bb54f90b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpuimage/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gpuimage/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpuimage/build/intermediates/classes/release/jp/co/cyberagent/android/gpuimage/GPUImageBilateralFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpuimage/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gpuimage/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpuimage/src/main/jni/Application.mk" beforeDir="false" afterPath="$PROJECT_DIR$/gpuimage/src/main/jni/Application.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpuimagesample/build/intermediates/classes/debug/jp/co/cyberagent/android/gpuimage/sample/utils/CameraUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpuimagesample/build/tmp/expandedArchives/classes.jar_4g50mgdbkbm8cqjqqoft21u23/jp/co/cyberagent/android/gpuimage/GPUImageBilateralFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gpuimagesample/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gpuimagesample/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,12 +53,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="b897da570504" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-09-17T07:52:17.504Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../android-sdk-macosx" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="SDK Location" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -112,7 +134,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gpuimagesample" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="gpuimagesample" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="gpuimagesample" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -179,13 +201,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1554" y="228" key="#PSD" timestamp="1600325866043">
+    <state x="-1554" y="228" key="#PSD" timestamp="1600330408634">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1554" y="228" key="#PSD/-1920.23.1920.1057/0.23.1280.777/-2953.23.1033.1897@-1920.23.1920.1057" timestamp="1600325866043" />
-    <state x="-1386" y="243" width="852" height="616" key="find.popup" timestamp="1600325958513">
+    <state x="-1554" y="228" key="#PSD/-1920.23.1920.1057/0.23.1280.777/-2953.23.1033.1897@-1920.23.1920.1057" timestamp="1600330408634" />
+    <state width="1868" height="289" key="GridCell.Tab.0.bottom" timestamp="1600330720450">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1386" y="243" width="852" height="616" key="find.popup/-1920.23.1920.1057/0.23.1280.777/-2953.23.1033.1897@-1920.23.1920.1057" timestamp="1600325958513" />
+    <state width="1868" height="289" key="GridCell.Tab.0.bottom/-1920.23.1920.1057/0.23.1280.777/-2953.23.1033.1897@-1920.23.1920.1057" timestamp="1600330720450" />
+    <state width="1868" height="289" key="GridCell.Tab.0.center" timestamp="1600330720449">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1868" height="289" key="GridCell.Tab.0.center/-1920.23.1920.1057/0.23.1280.777/-2953.23.1033.1897@-1920.23.1920.1057" timestamp="1600330720449" />
+    <state width="1868" height="289" key="GridCell.Tab.0.left" timestamp="1600330720449">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1868" height="289" key="GridCell.Tab.0.left/-1920.23.1920.1057/0.23.1280.777/-2953.23.1033.1897@-1920.23.1920.1057" timestamp="1600330720449" />
+    <state width="1868" height="289" key="GridCell.Tab.0.right" timestamp="1600330720450">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1868" height="289" key="GridCell.Tab.0.right/-1920.23.1920.1057/0.23.1280.777/-2953.23.1033.1897@-1920.23.1920.1057" timestamp="1600330720450" />
+    <state x="-1386" y="243" width="852" height="616" key="find.popup" timestamp="1600329264837">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1386" y="243" width="852" height="616" key="find.popup/-1920.23.1920.1057/0.23.1280.777/-2953.23.1033.1897@-1920.23.1920.1057" timestamp="1600329264837" />
   </component>
 </project>

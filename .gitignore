@@ -1,2 +1,7 @@
 .idea/*
 .gradle/*
+.build/*
+build/*
+gpuimage/build/*
+gpuimagesample/build/*
+gpuimage/src/main/libs/*

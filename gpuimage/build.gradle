@@ -8,11 +8,26 @@ android {
         minSdkVersion 19
         targetSdkVersion 25
 
-        ndk {
-            moduleName "gpuimage-library"
-        }
+//        ndk {
+//            moduleName "gpuimage-library"
+//        }
     }
 
+    sourceSets {
+        main{
+            jniLibs.srcDirs 'src/main/libs' //so存放地方
+        }
+    }
+    task ndkBuild(type: Exec, description: 'Compile JNI source via NDK') {
+        commandLine "/Users/yao/Development/NDK/android-ndk-r16b/ndk-build",
+            'NDK_PROJECT_PATH=build/intermediates/ndk',
+            'NDK_LIBS_OUT=src/main/libs',
+            'APP_BUILD_SCRIPT=src/main/jni/Android.mk',
+            'NDK_APPLICATION_MK=src/main/jni/Application.mk'
+    }
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn ndkBuild
+    }
     buildTypes {
         release {
             minifyEnabled false
