@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gpuimage/gpuimage.iml" filepath="$PROJECT_DIR$/.idea/modules/gpuimage/gpuimage.iml" group="gpuimagedemo-java-api1/gpuimage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gpuimagedemo-java-api1.iml" filepath="$PROJECT_DIR$/.idea/modules/gpuimagedemo-java-api1.iml" group="gpuimagedemo-java-api1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gpuimagesample/gpuimagesample.iml" filepath="$PROJECT_DIR$/.idea/modules/gpuimagesample/gpuimagesample.iml" group="gpuimagedemo-java-api1/gpuimagesample" />
+    </modules>
+  </component>
+</project>
